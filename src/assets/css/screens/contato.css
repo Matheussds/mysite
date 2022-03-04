@@ -1,0 +1,31 @@
+.contact-input {
+    color: white;
+    font-size: 14px; 
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+
+}
+
+.btn-submit {
+    margin-top: 20px;
+    background-color: #3DA651;
+    color: white;
+    font-size: 14px; 
+    font-weight: bold;
+    width: 30%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: 3px 3px #010409;
+}
+
+.btn-submit:hover {
+    background-color: #3DA630;
+}

@@ -1,0 +1,12 @@
+.list-container {
+    width: 100%;
+    border-radius: 0px 8px 8px 0px ;
+}
+
+.item-list {
+    border-bottom: 1px solid #1f6feb;
+    border-left: 1px solid #1f6feb;
+    border-radius: 0 0 0px 7px;
+    width: auto;
+    padding: 5px 10px 5px 10px ;
+}

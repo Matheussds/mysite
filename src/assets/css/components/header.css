@@ -1,0 +1,46 @@
+.header-container {
+    background-color: #0000FF;
+    height: 6rem; 
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.header-container > h1 {
+    font-weight: bold;
+}
+  
+.cabecalho-foto-perfil {
+    border-radius: 100%;
+    width: 10rem;
+    position: relative;
+    top: 35px;
+    border: 8px solid #070040;
+}
+  
+@media(max-width: 800px) {
+    .hide-half {
+        display: none;
+    }
+
+    .cabecalho-foto-perfil {
+        position:absolute;
+        top: 0;
+        width: 6rem;
+    }
+
+    .header-container > h1 {
+        font-size: 25px;
+    }
+    
+}
+ 
+  
+@media(min-width: 800px) {
+    .hide-right {
+        display: none;
+        
+    }
+}
+  

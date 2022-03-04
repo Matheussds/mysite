@@ -1,0 +1,28 @@
+.logo-box {
+    width: 30%;
+}
+
+.github-logo {
+    width: 50%;
+    background-color: #0000FF;
+    border-radius: 100%;
+}
+
+.repo-container {
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    max-width: 310px;
+    min-height: 120px;
+}
+
+.repo-content {
+    max-width: 70%;
+}
+
+@media(max-width: 800px) {
+    .repo-container {
+        max-width: none;
+    }
+}
