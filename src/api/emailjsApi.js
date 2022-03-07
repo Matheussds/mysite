@@ -1,11 +1,11 @@
 import emailjs from '@emailjs/browser';
-import Credentials from '../config/credentials'; //Arquivo .gitignore
+//import Credentials from '../config/credentials'; //Arquivo .gitignore
 
 const sendEmail = (e) => {
     e.preventDefault();
 
     
-    emailjs.sendForm(Credentials.SERVICE_ID, Credentials.TEMPLATE_ID, e.target, Credentials.USER_ID)
+    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAILJS_USER_ID)
         .then((result) => {
             alert('Mensagem enviada com sucesso');
         }, (error) => {
