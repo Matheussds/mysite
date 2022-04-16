@@ -6,6 +6,8 @@ import html_svg from '../assets/img/html-1.svg'
 import css_svg from '../assets/img/css-3.svg'
 import oracle_svg from '../assets/img/oracle-6.svg'
 import power_bi_svg from '../assets/img/power-bi.svg'
+import figma_svg from '../assets/img/figma-1.svg'
+import next_svg from '../assets/img/next-js.svg'
 
 export default () => {
     function imageItem(img, width, alt) {
@@ -25,6 +27,8 @@ export default () => {
     const css_logo = imageItem(css_svg, '80px', 'css logo');
     const oracle_logo = imageItem(oracle_svg, '80px', 'oracle logo');
     const power_bi_logo = imageItem(power_bi_svg, '80px', 'power bi logo');
+    const figma_logo = imageItem(figma_svg, '80px', 'figma logo');
+    const next_logo = imageItem(next_svg, '80px', 'next logo');
     const react_native_logo = imageItem(
         react_native_svg,
         '100px',
@@ -40,6 +44,8 @@ export default () => {
             <Card label="CSS" value={css_logo} />
             <Card label="Oracle DB" value={oracle_logo} />
             <Card label="Power BI" value={power_bi_logo} />
+            <Card label="Figma" value={figma_logo} />
+            <Card label="Next" value={next_logo} />
         </>
 
     )
